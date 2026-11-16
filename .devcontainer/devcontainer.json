@@ -1,0 +1,16 @@
+{
+  "name": "substrate",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "bufbuild.vscode-buf",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "redhat.vscode-yaml",
+        "ms-azuretools.vscode-containers",
+        "timonwong.shellcheck"
+      ]
+    }
+  },
+  "postCreateCommand": "go telemetry off"
+}
